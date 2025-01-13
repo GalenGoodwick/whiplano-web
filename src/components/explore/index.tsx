@@ -10,9 +10,9 @@ export default function Explore() {
       </h2>
       <p className="text-lg mb-8 max-w-3xl mx-auto">
         Join Whiplano today and unlock a new world of creative ownership and
-        collaboration! Whether you're an author, artist, or fan, Whiplano empowers you
+        collaboration! Whether you&apos;re an author, artist, or fan, Whiplano empowers you
         to shape, share, and profit from the creative works you love—all while
-        supporting the original creators. Don’t just consume creativity; be part of it.
+        supporting the original creators. Don&apos;t just consume creativity; be part of it.
       </p>
       <Button
         className="bg-transparent border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#DB2777]"
