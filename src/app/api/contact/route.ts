@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
       from: "whiplano08@gmail.com", 
       to: "danielvincent1718@gmail.com", 
       subject: `New Contact Form Submission from ${name}`,
-      text: `You have a new message from the contact form:
+      text: `You have a message from the contact form:
       
 Name: ${name}
 Email: ${email}
