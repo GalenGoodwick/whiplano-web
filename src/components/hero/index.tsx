@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Right Section: Image */}
         <div className="flex justify-center">
           <Image
-            src="/whiplanoReading.png"
+            src="/whiplano-reading.png"
             alt="Whiplano Mascot"
             width={578}
             height={578}
