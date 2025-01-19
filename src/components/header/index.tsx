@@ -56,7 +56,7 @@ export default function Header() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-4">
           <nav className="flex items-center space-x-6">
-            <Link href="/about">
+            <Link href="/">
               <div
                 className={`text-sm font-medium ${
                   isScrolled ? "text-white" : "text-white"
@@ -65,7 +65,7 @@ export default function Header() {
                 Home
               </div>
             </Link>
-            <Link href="/how-it-works">
+            <Link href="/about">
               <div
                 className={`text-sm font-medium ${
                   isScrolled ? "text-white" : "text-white"
@@ -74,7 +74,7 @@ export default function Header() {
                 About
               </div>
             </Link>
-            <Link href="/contact">
+            <Link href="/how-it-works">
               <div
                 className={`text-sm font-medium ${
                   isScrolled ? "text-white" : "text-white"
@@ -133,17 +133,17 @@ export default function Header() {
           </button>
         </div>
         <nav className="mt-4 space-y-4 px-4">
-          <Link href="/about">
+          <Link href="/">
             <div className="block text-lg font-medium text-white hover:text-gray-200">
               Home
             </div>
           </Link>
-          <Link href="/how-it-works">
+          <Link href="/about">
             <div className="block text-lg font-medium text-white hover:text-gray-200">
               About
             </div>
           </Link>
-          <Link href="/contact">
+          <Link href="/how-it-works">
             <div className="block text-lg font-medium text-white hover:text-gray-200">
               How It Works
             </div>
