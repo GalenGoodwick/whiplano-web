@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"; // ShadCN Button Component
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"; // ShadCN Card Component
-import Image from "next/image";
+
 
 export default function DownloadGuides() {
   return (
