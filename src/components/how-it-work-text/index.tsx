@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 export default function HowItWorksText() {
   return (
     <section className="py-12 bg-white">
@@ -191,7 +189,7 @@ export default function HowItWorksText() {
             making it a <strong>
                 platform for investment, artistic collaboration, and
                 sustainable growth
-            </strong>. Whether you're a creator, investor, or artisan, 
+            </strong>. Whether you&apos;re a creator, investor, or artisan, 
             Whiplano empowers you to shape the future of decentralized intellectual 
             property.
             
