@@ -15,11 +15,9 @@ export default function Home() {
       {/* <Header /> */}
       <Hero />
       <VisionMission />
-      <HowItWorks />
-      <OurProcessSection />
       <EmpoweringSection />
       <WhiplanoSection />
-      <DownloadGuides />
+      <OurProcessSection />
       <Explore />
       {/* <Footer /> */}
     </>
