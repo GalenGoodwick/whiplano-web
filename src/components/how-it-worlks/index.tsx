@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button"; // Ensure ShadCN Button is installed and configured
+import Link from "next/link";
 
 export default function HowItWorks() {
   return (
@@ -28,7 +29,7 @@ export default function HowItWorks() {
           <Button
             className="bg-white text-[#DB2777] hover:bg-gray-100 px-6 py-3 text-lg rounded-lg"
           >
-            Contact Us &gt;
+           <Link href="/contact">Contact Us &gt;</Link>
           </Button>
         </div>
     </section>

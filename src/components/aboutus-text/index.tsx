@@ -1,7 +1,5 @@
 "use client";
 
-
-
 export default function AboutText() {
   return (
     <section className="py-12 bg-white">

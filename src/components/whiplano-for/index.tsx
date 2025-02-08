@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button"; // ShadCN Button Component
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"; // ShadCN Card Components
 import { Pencil, Users, Briefcase } from "lucide-react"; // Icons
+import Link from "next/link";
 
 const WhiplanoSection = () => {
   return (
@@ -85,7 +86,7 @@ const WhiplanoSection = () => {
       {/* Learn More Button */}
       <div className="text-center mt-12">
         <Button className="bg-gradient-to-r from-pink-500 to-orange-400 text-white px-6 py-3 rounded-full text-sm font-medium hover:opacity-90">
-          Learn More &gt;
+        <Link href="/how-it-works">Learn More &gt;</Link>
         </Button>
       </div>
     </section>

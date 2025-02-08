@@ -15,10 +15,22 @@ export default function Explore() {
         supporting the original creators. Don&apos;t just consume creativity; be part of it.
       </p>
       <Button
-        className="bg-transparent border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#DB2777]"
-      >
-        Get Started Now &gt;
-      </Button>
+  className="bg-white text-[#DB2777] hover:bg-gray-100 px-6 py-3 text-lg rounded-lg"
+  onClick={() => {
+    const url = "https://app.whiplano.com/signup";
+    
+    if (window.innerWidth <= 768) {
+      // Open in a new tab for mobile and tablet
+      window.open(url, "_blank", "noopener,noreferrer");
+    } else {
+      // Open as a popup for larger screens
+      window.open(url, "_blank", "width=1000,height=1000,left=500,top=50,noopener,noreferrer");
+    }
+  }}
+>
+  Get Started Now &gt;
+</Button>
+
     </div>
   );
 }

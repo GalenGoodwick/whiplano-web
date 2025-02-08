@@ -1,5 +1,6 @@
 "use client";
 
+
 export default function HowItWorksText() {
   return (
     <section className="py-12 bg-white">

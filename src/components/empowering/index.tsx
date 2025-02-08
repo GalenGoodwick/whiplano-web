@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const EmpoweringSection = () => {
   return (
@@ -28,7 +29,7 @@ const EmpoweringSection = () => {
         </p>
         <div className="mt-6 flex justify-start">
           <button className="px-6 py-2 bg-gradient-to-r from-pink-500 to-orange-400 text-white font-medium rounded-full shadow hover:opacity-90 transition">
-            Learn More &gt;
+            <Link href="/how-it-works">Learn More &gt;</Link>
           </button>
         </div>
       </div>
