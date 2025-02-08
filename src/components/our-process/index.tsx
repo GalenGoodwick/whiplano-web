@@ -7,7 +7,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card"; // ShadCN Card Component
-
+import Link from "next/link";
 export default function OurProcessSection() {
   return (
     <section className="py-16 bg-white">
@@ -74,8 +74,9 @@ export default function OurProcessSection() {
 
         {/* Schedule Button */}
         <div className="flex justify-end max-w-5xl mx-auto">
-          <Button className="bg-gradient-to-r from-[#FE658F] to-[#DB2777] text-white px-6 py-3 rounded-lg text-lg">
-            Schedule A Call &gt;
+          <Button className="bg-gradient-to-r from-[#FE658F] to-[#DB2777] text-white px-6 py-3 rounded-lg text-lg" >
+             
+            <Link href="https://discord.gg/CrVabKU2Av" target="blank">Join our discord server! &gt;</Link>
           </Button>
         </div>
       </div>
