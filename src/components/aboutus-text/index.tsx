@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 export default function AboutText() {
   return (
     <section className="py-12 bg-white">
@@ -10,7 +8,7 @@ export default function AboutText() {
         <div className="flex flex-col items-center ">
             <h2 className="text-4xl font-extrabold mb-6 text-[#C81E8A]">Redefining Creativity & Collaboration</h2>
             <p className="text-lg leading-relaxed text-gray-700 md:text-justify">
-            Whiplano is more than just a platform—it’s a movement 
+            Whiplano is more than just a platform—it&apos;s a movement 
             toward a <strong>
               fairer, more transparent, and community-driven
               creative economy

@@ -1,10 +1,9 @@
 "use client";
 
-import DownloadGuides from "@/components/download-guide";
 import EmpoweringSection from "@/components/empowering";
 import Explore from "@/components/explore";
 import Hero from "@/components/hero";
-import HowItWorks from "@/components/how-it-worlks";
+
 import OurProcessSection from "@/components/our-process";
 import VisionMission from "@/components/vissionMisson";
 import WhiplanoSection from "@/components/whiplano-for";
@@ -15,11 +14,9 @@ export default function Home() {
       {/* <Header /> */}
       <Hero />
       <VisionMission />
-      <HowItWorks />
-      <OurProcessSection />
       <EmpoweringSection />
       <WhiplanoSection />
-      <DownloadGuides />
+      <OurProcessSection />
       <Explore />
       {/* <Footer /> */}
     </>
