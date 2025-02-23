@@ -2,232 +2,114 @@
 
 export default function AboutText() {
   return (
-    <section className="py-12 bg-white">
-      <div className="container mx-auto flex flex-col gap-[6rem] px-6">
-        {/*Redefining Creativity & Collaboration*/}
-        <div className="flex flex-col items-center ">
-            <h2 className="text-4xl font-extrabold mb-6 text-[#C81E8A]">Redefining Creativity & Collaboration</h2>
-            <p className="text-lg leading-relaxed text-gray-700 md:text-justify">
-            Whiplano is more than just a platform—it&apos;s a movement 
-            toward a <strong>
-              fairer, more transparent, and community-driven
-              creative economy
-            </strong>. By empowering creators, artisans, and 
-            investors to <strong>co-own and contribute</strong> to intellectual property, 
-            we are breaking down the barriers of traditional content 
-            ownership. Our goal is to build a space where creativity 
-            flourishes through <strong>collaboration, transparency, and shared success.</strong>
-            <br />
-            <br />
-            At Whiplano, we believe that <strong>
-              ideas should thrive through communities,
-              not be locked away by corporations
-            </strong>. Whether you’re an artist publishing 
-            your work, a fan reimagining a story, or an investor recognizing the next 
-            big opportunity, Whiplano enables you to <strong>
-              play an active role in the
-              creative ecosystem
-            </strong>.
-            <br />
-            <br />
-            We are pioneering a <strong>
-              new way of thinking about ownership and
-              collaboration
-            </strong>, where intellectual property evolves organically 
-            through collective effort. The traditional system often restricts 
-            creators, forcing them to compromise their vision for financial 
-            backing or legal security. Whiplano offers an <strong>
-              alternative—a
-              decentralized, trust-based framework
-            </strong> that ensures creative works 
-            remain dynamic, adaptable, and profitable for all contributors.
-            </p>
-        </div>
+    <section className="pt-12 bg-gradient-to-r from-[#DB2777] to-[#FE658F] text-white ">
+            <div className="pb-[6rem]">
+                <div className=" container mx-auto flex flex-col gap-[6rem] px-6 ">
+                    <h1 className="text-5xl font-extrabold ">A New Paradigm for Creativity and Ownership</h1>
+                    <div className="flex flex-col">
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                            <b>Whiplano</b> is more than a platform—it is a revolution in creative ownership. We reject the outdated models that lock creators out of their own success, where corporations and middlemen dictate how art, stories, and ideas are distributed. Instead, we return power to creators and communities, allowing them to shape, expand, and profit from intellectual property in a way that is ethical, collaborative, and sustainable.
+                            <br /><br />
+                            At the core of Whiplano is a simple but radical idea: <b>creativity flourishes when ownership is shared, not hoarded</b>.
+                        </p>
+                    </div>
+                <hr className=" border-t-2 border-gray-300 " />
+                </div>
 
-        {/* Our Vision */}
-        <div className="flex flex-col items-center ">
-            <h2 className="text-4xl font-extrabold mb-4 text-[#C81E8A]">Our Vision</h2>
-            <p className="text-lg leading-relaxed text-gray-700 md:text-justify">
-            We envision a world where <strong>
-              intellectual property is not just owned
-              but shared, nurtured, and expanded upon
-            </strong>—where creators <strong>
-              retain
-              control
-            </strong>, communities <strong>drive innovation</strong>, and success is <strong>
-              equitably
-              distributed
-            </strong>. Whiplano is built to <strong>empower, connect, and inspire</strong>, 
-            ensuring that every creative work has the opportunity to evolve 
-            and reach its full potential.
+            </div>
 
-            <br />
-            <br />
+            <div className=" text-white pb-[6rem]">
+                <div className="container mx-auto flex flex-col gap-[6rem] px-6 bg-">
+                    <h1 className="text-5xl font-extrabold pt-[5rem]">Our Values
+                    </h1>
+                    {/*1. Decentralized Creativity: Expanding, Not Restricting*/}
+                    <div className="flex flex-col ">
+                        <h2 className="text-3xl font-extrabold mb-6 ">1. Decentralized Creativity: Expanding, Not Restricting</h2>
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                        Traditional IP models force creators to choose between control and growth—either sell their rights or limit how far their work can go. <b>Whiplano eliminates this false choice</b> by allowing creators to issue <b>Tradable Seed Rights (TRS)</b> that invite artisans and producers to legally expand and commercialize their work—without losing their connection to it.
+                        <br /><br />
+                        Creators retain authorship, recognition, and revenue, while the community helps their ideas flourish in ways they never imagined.
+                        </p>
+                    </div>
 
-            Our vision is rooted in the belief that<strong>
-               true creative freedom
-              comes from community-driven support
-            </strong> rather than corporate 
-            intervention. Instead of allowing centralized entities to dictate 
-            what ideas succeed, Whiplano gives power back to the <strong>
-              creators and
-              their communities
-            </strong>, making artistic expression a shared journey 
-            rather than a solitary struggle.
+                    {/*2. A System Built on Trust and Merit, Not Gatekeeping*/}
+                    <div className="flex flex-col ">
+                        <h2 className="text-3xl font-extrabold mb-6">2. A System Built on Trust and Merit, Not Gatekeeping</h2>
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                        Gatekeepers dictate which ideas deserve funding, which artists get published, and which voices are heard. <b>Whiplano flips this model</b>—anyone can publish, anyone can participate, and success is determined by community support, not corporate approval.
+                        <br /><br />
+                        Every <b>TRS</b> is <b>a vote of confidence</b>, a direct investment in creative potential, not a speculative bet on corporate marketing trends.
+                        </p>
+                    </div>
 
-            <br />
-            <br />
+                    {/*3. Economic Freedom for Creators and Makers*/}
+                    <div className="flex flex-col ">
+                        <h2 className="text-3xl font-extrabold mb-6 ">3. Economic Freedom for Creators and Makers</h2>
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                        For too long, creators have been trapped in <b>low-royalty contracts, restrictive publishing deals, and exploitative licensing agreements</b>. Whiplano’s multiplication of rights creates new revenue streams where both creators and artisans thrive.
+                            <ul className="list-disc list-inside pl-[3rem]">
+                            <li><b>Creators</b> get paid upfront when they issue TRS.</li>
+                            <li><b>Artisans</b> gain access to legal, profitable adaptation rights.</li>
+                            <li><b>Communities</b> benefit by supporting works they believe in while participating in their success.</li>
+                            </ul>
+                        This is not just about selling art—it’s about <b>building economic ecosystems</b> around creative works where value circulates freely and fairly.
+                        </p>
+                    </div>
 
-            Through <strong>technology, transparency, and trust</strong>, we are shaping 
-            a future where <strong>
-              creativity is limitless, ownership is fair,
-              and innovation is a collective force.
-            </strong>
-            </p>
-          </div>
+                    {/*4. Blockchain Meets Accessibility: Security Without Barriers*/}
+                    <div className="flex flex-col ">
+                        <h2 className="text-3xl font-extrabold mb-6 ">4. Blockchain Meets Accessibility: Security Without Barriers</h2>
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                        Whiplano seamlessly bridges <b>blockchain security</b> with <b>real-world usability</b>. Unlike other platforms that demand technical knowledge and cryptocurrency expertise, Whiplano ensures that:
+                            <ul className="list-disc list-inside pl-[3rem]">
+                            <li><b>Anyone can participate using fiat payments.</b></li>
+                            <li><b>Blockchain transparency guarantees clear ownership and trust.</b></li>
+                            <li><b>Royalty automation ensures fair revenue distribution without middlemen.</b></li>
+                            </ul>
+                        You don’t need to be a crypto expert to own, trade, or activate rights—you just need a vision and a desire to create.
+                        </p>
+                    </div>
 
-        {/*Our Mission */}
-        <div className="flex flex-col items-center ">
-            <h2 className="text-4xl font-extrabold mb-7 text-[#C81E8A]">Our Mission</h2>
-            <p className="text-lg leading-relaxed text-gray-700 md:text-justify">
-            Whiplano’s mission is to:
-            <br />
-            <br />
+                    {/*5. Collaboration Over Competition*/}
+                    <div className="flex flex-col ">
+                        <h2 className="text-3xl font-extrabold mb-6">5. Collaboration Over Competition</h2>
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                        Creativity is not a zero-sum game—it thrives when people build on each other’s ideas. Instead of forcing creators to fight for limited market space, <b>Whiplano enables them to work together</b> in a decentralized network of expansion, adaptation, and mutual success.
+                        <br /><br />
+                        Whether you’re an <b>author, artist, filmmaker, designer, or investor</b>, Whiplano creates a space where your skills, passion, and vision can flourish without restrictions.
+                        </p>
+                    </div>
 
-            <ul className="list-disc list-inside pl-[3rem]">
-            <li><strong>Empower creators</strong> to maintain control over their work while benefiting from collaboration and investment.</li>
-            <li><strong>Enable communities</strong> to actively participate in the creative process and contribute to the expansion of ideas.</li>
-            <li><strong>Promote transparency and trust</strong> by leveraging blockchain technology to track contributions and ownership.</li>
-            <li><strong>Redefine intellectual property</strong> by making it more dynamic, accessible, and rewarding for everyone involved.</li>
-            <li><strong>Foster sustainable creativity</strong>, where creators and contributors can continue innovating without sacrificing ownership.</li>
-            <li><strong>Break down financial and logistical barriers</strong> that often prevent independent creators from realizing their visions.</li>
-            <li><strong>Encourage interdisciplinary collaboration</strong>, ensuring that creatives from all fields—whether literature, music, film, gaming, or digital art—can work together seamlessly.</li>
-            </ul>
+                    <hr className=" border-t-2 border-gray-300 my-4" />
+                </div>
+            </div>
 
-            <br />
-            <br />
-        
-            Our mission is not just about <strong>building a platform</strong>—it’s about 
-            <strong>building a movement</strong>. We want to create an <strong>
-              ecosystem where
-              deas are born, nurtured, and shared
-            </strong>, without being stifled by 
-            outdated industry norms.
+            <div className=" text-white container mx-auto flex flex-col gap-[6rem] px-6 ">
+                <h1 className="text-5xl pt-[5rem] font-extrabold ">The Future of Ownership is Here</h1>
 
+                <div className="flex flex-col ">
+                    <p className="text-lg leading-relaxed  md:text-justify">
+                    Whiplano is not just a marketplace—it’s an entirely new <b>creative economy</b>. A space where <b>ideas are planted like seeds, nurtured by the community, and grown into movements</b>. Where creators own their future, artisans unlock new opportunities, and audiences become true participants in the success of the works they love.
+                    <br /><br />
+                    This is the <b>end of gatekeeping</b> and the beginning of an <b>open, decentralized, and thriving creative world</b>.
 
-            </p>
-          </div>
+                    </p>
+                </div>
+                
+                <hr className=" border-t-2 border-gray-300 py-[3rem]" />
 
-        {/* Our Team */}
-        <div className="flex flex-col items-center ">
-            <h2 className="text-4xl font-extrabold mb-4 text-[#C81E8A]">Our Team</h2>
-            <p className="text-lg leading-relaxed text-gray-700 md:text-justify">
-            Whiplano was founded by <strong>Galen Goodwick</strong>, a visionary board 
-            game developer with a passion for building systems that 
-            bring people together. Galen’s experience in designing 
-            immersive, collaborative games inspired him to challenge 
-            the <strong>rigid, centralized structures</strong> that often govern the 
-            creative economy.
+            </div>
 
-              <br />
-              <br />
-
-            Frustrated by how large corporations strip creators of control 
-            over their work, Galen envisioned <strong>
-              a decentralized system where
-              creativity could thrive without barriers
-            </strong>. To bring this vision 
-            to life, he assembled a team of like-minded innovators from diverse 
-            fields—including <strong>
-              blockchain technology, art, business development,
-              and law
-            </strong>—each committed to making Whiplano a reality.
-
-            <br />
-            <br />
-
-            We are a team of creators, builders, and problem-solvers 
-            who believe that <strong>collaboration fuels innovation</strong>. Our 
-            backgrounds span across technology, finance, and the arts, 
-            and we are united by a shared mission: to <strong>
-              revolutionize the
-              way intellectual property is shared, owned, and expanded
-            </strong>.
-            
-            <br />
-            <br />
-
-            Our team includes <strong>
-              engineers, artists, strategists, and community
-              builders
-            </strong>, each contributing their expertise to ensure that 
-            Whiplano remains at the cutting edge of decentralized creativity. 
-            We work with <strong>
-              legal experts to navigate intellectual property rights,
-              blockchain specialists to ensure secure transactions</strong>, and 
-              <strong>artists to
-              refine the user experience
-            </strong>, creating an ecosystem that is both 
-            <strong>technically sound and creatively fulfilling</strong>.
-
-            </p>
-          </div>
-
-        {/* Our Commitment to Innovation */}
-        <div className="flex flex-col items-center ">
-            <h2 className="text-4xl font-extrabold mb-4 text-[#C81E8A]">Our Commitment to Innovation</h2>
-            <p className="text-lg leading-relaxed text-gray-700 md:text-justifya">
-            At Whiplano, we are constantly pushing the boundaries of what’s 
-            possible in the creative industry. We are committed to: 
-            <br />
-            <br />
-
-            <ul className="list-disc list-inside pl-[3rem]">
-            <li><strong>Developing cutting-edge blockchain solutions</strong> that ensure transparency, security, and fairness in intellectual property transactions.</li>
-            <li><strong>Building a user-friendly platform</strong> that makes it easy for creators to publish, protect, and profit from their work.</li>
-            <li><strong>Supporting grassroots creativity</strong> by providing tools and resources for independent artists to thrive.</li>
-            <li><strong>Fostering a global creative community</strong> where diverse voices and ideas are celebrated.</li>
-            <li><strong>Continuously evolving</strong> to adapt to the needs of creators, artisans, and investors.</li>
-            </ul>
-
-            </p>
-        </div>
-
-        {/* Join the Whiplano Movement */}
-        <div className="flex flex-col items-center ">
-            <h2 className="text-4xl font-extrabold mb-4 text-[#C81E8A]">Join the Whiplano Movement</h2>
-            <p className="text-lg leading-relaxed text-gray-700 md:text-justify">
-            Whiplano is for everyone who believes in the power of <strong>
-              creativity
-              and community
-            </strong>. Whether you’re an artist, an entrepreneur, an investor, 
-            or a fan, you have a place here.
-
-            <br />
-            <br />
-
-            By joining Whiplano, you’re not just supporting a platform—you’re 
-            helping to <strong>reshape the future of intellectual property</strong>. Together, 
-            we can build a world where creators, artisans, and supporters all 
-            <strong>share in the success of ideas</strong>.
-
-            <br />
-            <br />
-
-            Join our growing community and be part of the<strong>
-               future of creative
-              collaboration
-            </strong>. Your ideas, passion, and support will help drive 
-            the next era of decentralized creativity.
-
-              <br />
-              <br />
-
-            <strong>Welcome to Whiplano—where creativity meets opportunity.</strong>
-
-            </p>
-          </div>
-        </div>
-    </section>
+            <div className=" text-white pb-[6rem]">
+                <div className="container mx-auto flex flex-col gap-[6rem] px-6 ">
+                    <h1 className="text-5xl font-extrabold pt-[5rem] ">Join Us</h1>
+                    <div className="flex flex-col ">
+                        <p className="text-lg leading-relaxed  md:text-justify">
+                          <b>Build, expand, and own the future of creativity.</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
   );
 }
