@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head><title>Whiplano</title></head>
       <body
         className={`${poppins.className} antialiased`}
       >
