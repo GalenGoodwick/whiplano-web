@@ -1,6 +1,5 @@
 "use client";
 import { Button } from "@/components/ui/button"; // ShadCN Button Component
-import { BitcoinIcon } from "lucide-react";
 import Image from "next/image";
 
 export default function ca() {
