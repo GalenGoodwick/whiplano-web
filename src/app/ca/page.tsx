@@ -1,21 +1,16 @@
 "use client";
+import CA from "@/components/ca";
 
-export default function Home() {
+export default function ca() {
   return (
     <> 
       {/* <Header /> */}
-      <section className="h-screen bg-[#FE658F] text-white flex items-center">
-            <div className="mx-auto grid grid-cols-1  items-center px-6">
-              <div className="text-center ">
-                <h1 className="text-6xl sm:text-[82px] font-extrabold tracking-tight leading-tight mb-6">
-                  Work In Progress
-                </h1>
-                <p className="text-2xl font-medium leading-relaxed">
-                  Page Will be Up Soon!
-                </p>
-              </div>
-            </div>
-          </section>
+        <div className="bg-gradient-to-r from-[#DB2777] to-[#FE658F]">
+          <div className="bg-gradient-to-r from-[#DB2777] to-[#FE658F] py-9"></div>
+          <h1 className=" flex flex-col items-center md:text-center text-6xl font-extrabold my-10 text-white mx-5">WHIPLANO (TRS) <br />Redefining Digital Ownership</h1>
+          <hr className="w-1/2 border-t-2 border-gray-300 my-4 mx-auto" />
+          <div><CA/></div>
+        </div>
       {/* <Footer /> */}
     </>
   );
