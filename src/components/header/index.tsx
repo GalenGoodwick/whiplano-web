@@ -66,13 +66,13 @@ export default function Header() {
                 Home
               </div>
             </Link>
-            <Link href="/ca">
+            <Link href="/token">
               <div
                 className={`text-sm font-medium ${
                   isScrolled ? "text-white" : "text-white"
                 }`}
               >
-                CA
+                Token
               </div>
             </Link>
             <Link href="/about">

@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button"; // ShadCN Button Component
 import Image from "next/image";
 
-export default function ca() {
+export default function TokenText() {
     return (
         <>
             {/* <Header /> */}
