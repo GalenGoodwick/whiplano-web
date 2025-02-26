@@ -66,6 +66,15 @@ export default function Header() {
                 Home
               </div>
             </Link>
+            <Link href="/ca">
+              <div
+                className={`text-sm font-medium ${
+                  isScrolled ? "text-white" : "text-white"
+                }`}
+              >
+                CA
+              </div>
+            </Link>
             <Link href="/about">
               <div
                 className={`text-sm font-medium ${

@@ -144,14 +144,14 @@ export default function ContactUs() {
               className="w-full max-w-sm"
             />
             <div className="text-right md:text-left">
-              <p className="text-sm font-medium text-gray-700 flex items-center justify-end md:justify-start">
-                <span className="mr-2">📍</span> 543 Lewis Island K, 6956
+              {/* <p className="text-sm font-medium text-gray-700 flex items-center justify-end md:justify-start">
+                <span className="mr-2">📍</span> 
               </p>
               <p className="text-sm font-medium text-gray-700 flex items-center justify-end md:justify-start mt-2">
-                <span className="mr-2">📞</span> +2014 4040 3010
-              </p>
+                <span className="mr-2">📞</span> 
+              </p> */}
               <p className="text-sm font-medium text-gray-700 flex items-center justify-end md:justify-start mt-2">
-                <span className="mr-2">✉️</span> hello@email.com
+                <span className="mr-2">✉️</span> whiplano08@gmail.com
               </p>
             </div>
           </div>
