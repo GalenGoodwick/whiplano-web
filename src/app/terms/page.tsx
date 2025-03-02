@@ -1,6 +1,6 @@
 "use client";
 
-export default function PressAndAwards() {
+export default function Terms() {
   return (
     <> 
       {/* <Header /> */}
